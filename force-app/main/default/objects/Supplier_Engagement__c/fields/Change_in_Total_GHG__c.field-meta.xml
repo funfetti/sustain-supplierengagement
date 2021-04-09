@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_in_Total_GHG__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Total_Scope_1_2_Location_GHG__c -  Prior_Year_Total_Scope_1_2_GHG__c) / Total_Scope_1_2_Location_GHG__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Change in Total GHG</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

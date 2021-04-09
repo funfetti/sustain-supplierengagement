@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Science_Based_Target_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Science Based Target Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Set</fullName>
+                <default>false</default>
+                <label>Set</label>
+            </value>
+            <value>
+                <fullName>Not Set</fullName>
+                <default>false</default>
+                <label>Not Set</label>
+            </value>
+            <value>
+                <fullName>Self-Declared</fullName>
+                <default>false</default>
+                <label>Self-Declared</label>
+            </value>
+            <value>
+                <fullName>Committed</fullName>
+                <default>false</default>
+                <label>Committed</label>
+            </value>
+            <value>
+                <fullName>N/A See Parent</fullName>
+                <default>false</default>
+                <label>N/A See Parent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

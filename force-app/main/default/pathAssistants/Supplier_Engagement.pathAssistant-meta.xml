@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Supplier_Engagement__c</entityName>
+    <fieldName>Stage__c</fieldName>
+    <masterLabel>Supplier Engagement</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Next_Steps__c</fieldNames>
+        <picklistValueName>Needs Support</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Main_Contact__c</fieldNames>
+        <fieldNames>Next_Steps__c</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Supplier_Maturity__c</fieldNames>
+        <fieldNames>Next_Steps__c</fieldNames>
+        <picklistValueName>Response Received</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Next_Steps__c</fieldNames>
+        <picklistValueName>Validated</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Next_Steps__c</fieldNames>
+        <picklistValueName>Waiting on Supplier</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
